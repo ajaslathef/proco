@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>http</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>Pulse Automation Report</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Pulse Regression Test
+         <![CDATA[
+            
+            ]]>
+        </reportName>
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+        
+        <!-- timestamp format -->
+    <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+      
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            .report-name { padding-left: 18px; } .report-name > img { float: 
+      left;height: 90%;margin-left: 30px;margin-top: 3px;width: auto; }
+        ]]>
+        </styles>
+    </configuration>
+</extentreports>
